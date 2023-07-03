@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+:root {
+    font-size: 62.5%;
+    --ff-heading: 'Staatliches', sans-serif;
+    --ff-texting: 'Palanquin', sans-serif;
+--bg-primary: hsla(233, 100%, 97%, 1);
+--bg-secondary: hsla(218, 17%, 62%, 1);
+--bg-tertiary:hsla(312, 91%, 96%, 1);
+--bg-heading:hsla(275, 18%, 79%, 1);
+--fc-texting:hsla(274, 84%, 12%, 1);
+--fc-titles: hsla(232, 17%, 35%, 1);
+--fc-heading: hsla(0, 0%, 100%, 1);
+
+
+}
+
+
+.page {
+    width: 38.4rem;
+    height: 199.5rem;
+    flex-shrink: 0;
+    
+}
+
+header {
+    
+display: flex;
+flex-direction: column;
+align-items: center;
+
+height: 27.9rem;
+flex-shrink: 0;
+background: var(--bg-secondary) ;
+}
+
+
+
+header img {
+    margin-top: 3.2rem;
+    width: 15.7rem;
+height: 15.7rem;
+flex-shrink: 0;
+}
+
+
+.title {
+    display: flex;
+margin-top: 1.2rem;
+    justify-content: center;
+
+    min-width: 38.4rem;
+height: 4.9rem;
+flex-shrink: 0;
+background: var(--bg-heading);
+
+}
+
+.title h1 {
+    
+display: flex;
+
+padding-top: 8px;
+    width: 21.1rem;
+    height: 3.4rem;
+    flex-shrink: 0; 
+    
+    text-transform: uppercase;
+    font-family: var(--ff-heading);
+    color: var(--fc-heading);
+    text-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.25);
+    line-height: 3.4rem;
+letter-spacing: 2px;
+font-size: 4rem;
+font-weight: 400;
+
+}
+
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: var(--bg-primary);
+    width: 38.4rem;
+    
+}
+
+main p {
+    margin-top: 1.4rem ;
+width: 30.5rem;
+height: 7.5rem;
+
+color: var(--fc-texting);
+font-family: var(--ff-texting);
+
+
+}
+
+.card {
+    margin-top: 5.3rem;
+    position: relative;
+    
+}
+
+.card h2 span {
+position: absolute;
+display: inline-flex;
+align-items: center;
+
+
+
+
+    font-family: var(--ff-heading);
+    color: var(--fc-titles);
+    font-weight: 400;
+line-height: 34px;
+letter-spacing: 1px;
+
+padding: 1px 23px 0px 24px;
+background: var(--bg-tertiary);
+border-radius: 2rem;
+
+}
+
+
+.card #title-paletas, #title-massas {
+    bottom: 20rem;
+right: 1.6rem;
+}
+
+.card #title-shakes,#title-picoles {
+    bottom: 40rem;
+right: 1.6rem;
+}
+
+
+
+.card img {
+    border-radius: 2rem;
+}
+
+.card #img-paletas, #img-massas {
+    width: 320px;
+height: 250px;
+flex-shrink: 0;
+}
+
+.card #img-shakes, #img-picoles {
+    width: 320px;
+height: 450px;
+flex-shrink: 0;
+}
