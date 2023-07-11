@@ -76,11 +76,10 @@ header p {
 }
 
 @media (max-width: 1023px) {
-  
   main {
     background: var(--bg-primary);
   }
-  
+
   main > div:nth-child(3),
   main > div:nth-child(6) {
     display: none;
@@ -91,22 +90,18 @@ header p {
   }
 }
 
-
-
 @media (min-width: 1024px) {
   .page {
     display: grid;
-    grid-template-columns: 377px 1fr; 
+    grid-template-columns: 377px 1fr;
     align-items: flex-start;
-    max-height: 80rem; 
+    max-height: 80rem;
     max-width: clamp(90rem, 100%, 128rem);
-    
 
     background: var(--fc-heading);
   }
 
   header {
-    
     width: 37.7rem;
     height: 80rem;
   }
@@ -179,12 +174,10 @@ header p {
   }
 
   footer {
-    
     margin-left: 69rem;
     margin-top: -170px;
     width: 592px;
     height: 28px;
-    
   }
 
   footer h2 {
@@ -200,20 +193,10 @@ header p {
   }
 }
 
-
-
-
-
-
-
-
-
-
-
 main {
   display: grid;
   justify-items: center;
-  
+
   min-width: 38.4rem;
 }
 
@@ -289,6 +272,3 @@ main {
     transform: translateY(0);
   }
 }
-
-
-
