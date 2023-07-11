@@ -99,13 +99,14 @@ header p {
     grid-template-columns: 377px 1fr; 
     align-items: flex-start;
     max-height: 80rem; 
-    max-width: 128rem;
+    max-width: clamp(90rem, 100%, 128rem);
     
 
     background: var(--fc-heading);
   }
 
   header {
+    
     width: 37.7rem;
     height: 80rem;
   }
@@ -129,7 +130,7 @@ header p {
     max-height: 80rem;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: auto auto;
-    margin-left: 9.8rem;
+    margin-left: 5.8rem;
     animation: downtop 700ms 450ms backwards;
 
     background: var(--ff-texting);
@@ -158,14 +159,14 @@ header p {
 
   .card1 #img-paletas,
   .card3 #img-massas {
-    max-width: clamp(15rem, 28vw, 22rem);
+    max-width: clamp(15rem, 28vw, 23rem);
     max-height: 15rem;
     border-radius: 2rem;
   }
 
   .card2 #img-shakes,
   .card4 #img-picoles {
-    max-width: clamp(15rem, 28vw, 22rem);
+    max-width: clamp(15rem, 28vw, 23rem);
     max-height: 35rem;
     border-radius: 2rem;
   }
@@ -179,7 +180,7 @@ header p {
 
   footer {
     
-    margin-left: 72.5rem;
+    margin-left: 69rem;
     margin-top: -170px;
     width: 592px;
     height: 28px;
