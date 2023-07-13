@@ -262,6 +262,18 @@ main {
   height: 45rem;
 }
 
+img:hover {
+  transform: scale(1.1);
+  transition-delay: 70ms;
+  transition-property: transform;
+  transition-duration: 500ms;
+  transition-timing-function: ease;
+}
+
+footer a:hover {
+  color: hsl(215.48deg 55.66% 84.89%);
+}
+
 @keyframes downtop {
   0% {
     opacity: 0;
